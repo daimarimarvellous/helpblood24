@@ -35,48 +35,60 @@ export default function Home() {
 
       {/* Our Services Section */}
       <section className="py-12 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-navy-900 mb-10">Our Services</h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 text-center">
-            <div className="flex flex-col items-center">
-              <div className="bg-blue-100 p-4 rounded-full mb-3">
-                <TestTube className="h-8 w-8 text-blue-600" />
-              </div>
-              <span className="font-medium text-navy-900">CBC</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <div className="bg-blue-100 p-4 rounded-full mb-3">
-                <Activity className="h-8 w-8 text-blue-600" />
-              </div>
-              <span className="font-medium text-navy-900">Thyroid</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <div className="bg-blue-100 p-4 rounded-full mb-3">
-                <Droplet className="h-8 w-8 text-blue-600" />
-              </div>
-              <span className="font-medium text-navy-900">Sugar</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <div className="bg-blue-100 p-4 rounded-full mb-3">
-                <Pill className="h-8 w-8 text-blue-600" />
-              </div>
-              <span className="font-medium text-navy-900">Vitamin</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <div className="bg-blue-100 p-4 rounded-full mb-3">
-                <Virus className="h-8 w-8 text-blue-600" />
-              </div>
-              <span className="font-medium text-navy-900">Covid-19</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <div className="bg-blue-100 p-4 rounded-full mb-3">
-                <ChevronRight className="h-8 w-8 text-blue-600" />
-              </div>
-              <span className="font-medium text-navy-900">View All</span>
-            </div>
+  <div className="container mx-auto px-4">
+    <h2 className="text-3xl font-bold text-navy-900 mb-10">Our Services</h2>
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 text-center">
+      <div className="bg-white rounded-2xl p-6 shadow-md border border-gray-100 cursor-pointer">
+        <div className="flex flex-col items-center">
+          <div className="bg-blue-100 p-4 rounded-full mb-3">
+            <TestTube className="h-8 w-8 text-blue-600" />
           </div>
+          <span className="font-medium text-navy-900">CBC</span>
         </div>
-      </section>
+      </div>
+      <div className="bg-white rounded-2xl p-6 shadow-md border border-gray-100 cursor-pointer">
+        <div className="flex flex-col items-center">
+          <div className="bg-blue-100 p-4 rounded-full mb-3">
+            <Activity className="h-8 w-8 text-blue-600" />
+          </div>
+          <span className="font-medium text-navy-900">Thyroid</span>
+        </div>
+      </div>
+      <div className="bg-white rounded-2xl p-6 shadow-md border border-gray-100 cursor-pointer">
+        <div className="flex flex-col items-center">
+          <div className="bg-blue-100 p-4 rounded-full mb-3">
+            <Droplet className="h-8 w-8 text-blue-600" />
+          </div>
+          <span className="font-medium text-navy-900">Sugar</span>
+        </div>
+      </div>
+      <div className="bg-white rounded-2xl p-6 shadow-md border border-gray-100 cursor-pointer">
+        <div className="flex flex-col items-center">
+          <div className="bg-blue-100 p-4 rounded-full mb-3">
+            <Pill className="h-8 w-8 text-blue-600" />
+          </div>
+          <span className="font-medium text-navy-900">Vitamin</span>
+        </div>
+      </div>
+      <div className="bg-white rounded-2xl p-6 shadow-md border border-gray-100 cursor-pointer">
+        <div className="flex flex-col items-center">
+          <div className="bg-blue-100 p-4 rounded-full mb-3">
+            <Virus className="h-8 w-8 text-blue-600" />
+          </div>
+          <span className="font-medium text-navy-900">Covid-19</span>
+        </div>
+      </div>
+      <div className="bg-white rounded-2xl p-6 shadow-md border border-gray-100 cursor-pointer">
+        <div className="flex flex-col items-center">
+          <div className="bg-blue-100 p-4 rounded-full mb-3">
+            <ChevronRight className="h-8 w-8 text-blue-600" />
+          </div>
+          <span className="font-medium text-navy-900">View All</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Why Choose Us Section */}
       <section className="py-12 bg-white">

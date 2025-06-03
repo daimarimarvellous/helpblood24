@@ -28,7 +28,10 @@ export default function Navbar() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="text-2xl font-bold text-navy-900">
-            Helpblood24.com
+              <img src="/logo.jpg?height=5&width=5"
+                width={100}
+                height={100}
+             />
           </Link>
 
           {/* Search Bar - Desktop */}
@@ -60,10 +63,9 @@ export default function Navbar() {
             <Link href="/labs" className="font-medium text-navy-900 hover:text-blue-600">
               Labs
             </Link>
-            <Link href="/login">
-              <Button variant="ghost" className="font-medium text-navy-900 hover:text-blue-600">
-                Login
-              </Button>
+            <link href="/login"/>
+            <Link href="/login" className="font-medium text-navy-900 hover:text-blue-600">
+              Login
             </Link>
           </nav>
 
@@ -121,9 +123,9 @@ export default function Navbar() {
                 Labs
               </Link>
               <Link href="/login" onClick={() => setIsMenuOpen(false)}>
-                <Button variant="ghost" className="font-medium text-navy-900 hover:text-blue-600 w-full justify-start">
-                  Login
-                </Button>
+                <Link href="/login" className="font-medium text-navy-900 hover:text-blue-600 py-2">
+                Login
+            </Link>
               </Link>
             </nav>
           </div>
